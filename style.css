@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro');
+
+#photo{
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+    width: 300px;
+    background-color: rgb(67, 117, 161);
+}
+
+#name {
+    color: rgb(5, 21, 54);
+    margin: 20px;
+}
+
+#intro {
+    margin-left: 25px;
+    margin-right: 20px;
+    color: steelblue;
+}
+
+#job{
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    text-align: center;
+    background-color: darkblue;
+    width: 230px;
+
+}
+
+#body{
+    background-color: lightblue;
+    font-family:"Source Sans Pro";
+}
+
+nav a{
+    text-decoration: none;
+    margin-right: 8px;
+    color: black;
+    border-bottom: 2px dashed black;
+}
+
+nav a:hover{
+    background-color: aliceblue;
+}
+
+#nav {
+    float: right;
+    margin-right: 20px;
+}
