@@ -1,138 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./style.css" type="text/css">
-    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turtle Hatcheries</title>
+    <link rel="shortcut icon" href="./Images/Icons/icon.png" type="image/x-icon"/>
+<!--Stylesheet is linked here-->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+<!--Fonts from Google fonts are linked here-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-<body bgcolor="#000000" text="#FF0000">
-    <!--Add a search bar here.-->
+<body>
+<!--Header-->
     <header>
-        <nav>
-            <a href="./index.html">Home</a> &nbsp;&nbsp;
-            <a href="#Gallery">Gallery</a>  &nbsp;&nbsp;
-            <a href="#About">About</a>  &nbsp;&nbsp;
-            <a href="./contact.html">Contact</a> &nbsp;&nbsp;
-            <a href="./faq.html" target="blank">FAQ</a>
-        </nav>
-    <h1 id="firstTV">NETFLIX</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consectetur maxime deleniti suscipit dolorem necessitatibus. Nihil eum optio porro, iure magnam quis obcaecati iusto et excepturi nobis. Modi in provident laudantium tempore facere consequatur, expedita molestias tenetur odio, amet cum eos ipsum totam rerum magni! Dolorem sed adipisci saepe facere?</p></header>
-    <h2>Peaky Blinders</h2>
-    <figure>
-    <img src="./PB.jpg" alt="TV series cover" width="200" border="5">
-    <!--Add this point Tommy Shelby is staring at you-->
-    <figcaption>Peaky Bliders Cover</figcaption>
-    <section> <p><strong>Release Date -</strong> <tt>12<sup>th</sup> March 2019</tt></p>
-    <p><cite>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque illum vitae voluptate ipsam excepturi eligendi odio voluptates numquam ex ab veritatis beatae possimus, reprehenderit quaerat perspiciatis eveniet aut consequatur! Placeat quibusdam magni maxime reiciendis ut eos similique incidunt! Magni, est.</cite></p> <a href="https://en.wikipedia.org/wiki/Peaky_Blinders" target="_blank">Read more.</a>
+        <!--<br><a href="Index.html" class="logo"><img src="./Images/Icons/icon.png" alt="Icon" height="30px"></a> -->
+        
+        <ul class="navlist">
+          <p><a href="Index.html" class="logo"><img src="./Images/Icons/icon.png" alt="Icon" height="45px"></a></li> 
+            <p><a class="active" href="Index.html">Home <br> Page</li></a> 
+            <li><a href="About-Us.html">About <br> Hatcheries</li></a> 
+            <li><a href="Categories.html">Turtle <br> Categories</li></a> 
+            <li><a href="Hikkaduwa.html">Hikkaduwa <br> Hatchery</li></a> 
+            <li><a href="Threats.html">Turtle <br> Threats</li></a> 
+            <div class="dropdown">
+                <li class="dropbtn">Other<br>Hatcheries</li>
+                <div class="dropdown-content">
+                  <a href="Benthota.html">Benthota Hatchery</a>
+                  <a href="Kosgoda.html">Kosgoda Hatchery</a>
+                </div>
+              </div> 
+            <li><a href="Purchase.html">Purchase <br> and Donate</li></a>
+           
+        </ul>
+    </header>
+<section>
+    <div id="homecover"></div>
+    <div class="wrapper">
+        <div class="content">
+            <h1>Welcome to  Sri Lanka <br><span> turtle hatcheries </span></h1>
+        </div>
+    </div>
+<!--Introduction text-->
+    <p class="hometext">Sri Lanka is a haven for globally endangered species, including sea turtles. The country takes pride in its diverse turtle population, which includes Olive Ridley, Green, Hawksbill, and Leatherback turtles. Along the western and southern coasts, sea turtle hatcheries provide a safe haven for turtle eggs and injured turtles, playing a vital role in their rehabilitation and protection. These hatcheries diligently collect and safeguard the eggs until they are ready to hatch and make their journey back to the ocean. Sri Lanka's unwavering dedication to turtle conservation is evident through its conservation efforts and establishment of protected zones, ensuring the long-term survival of these majestic creatures. Visitors to the hatcheries have the unique opportunity to witness the mesmerizing nesting process of female sea turtles and actively participate in the gratifying experience of releasing hatchlings into the vast ocean. Through these collective initiatives, Sri Lanka has adopted a comprehensive and purposeful approach to turtle conservation, fostering a thriving turtle population.<p>
 </section>
 
-</ol>
-    </figure>
-    <hr>
-    <article>
-    <header><h2>Game of Thrones</h2></header>
-    <img src="./GOT.jpg" alt="TV series cover" width="200" border="5">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius est,<br> voluptatibus &nbsp;&nbsp;&nbsp;&nbsp; voluptatum omnis consequuntur error pariatur veritatis laboriosam molestias doloribus aspernatur quod nobis aperiam nemo placeat blanditiis amet cumque deserunt provident tempora. Tenetur aliquid similique nostrum deserunt quibusdam atque nisi?</p> <a href="https://en.wikipedia.org/wiki/Game_of_Thrones">Read more.</a>
-</article>
-    <hr>
-    <h2>Drive to Survive</h2>
-    <img src="./DTS.jpg" alt="TV series cover" width="200" border="5">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque dignissimos sed, ab culpa error aspernatur quidem. Id laborum fugit eaque tempora inventore, architecto iure, impedit perspiciatis quasi eos sapiente neque earum harum. Natus, facere. Ratione optio aperiam pariatur cupiditate deserunt.</p> <a href="https://en.wikipedia.org/wiki/Formula_1:_Drive_to_Survive">Read more.</a>
-    <section id="Episodes">
-    <h3>EPISODES</h3>
-    <ol type="1">
-        <li>Pilot</li>
-        <li>All to pay for</li>
-        <li>The King of Spain</li>
-        <li>Redemption</li>
-        <li>The Art of War</li>
-        <li>Trouble at the Top</li>
-        <li>All or Nothing</li>
-        <li>Keeping Your Head</li>
-        <li>The Next Generation</li>
-        <li>Stars and Stripes</li>
-        <li>Crossing the Line</li>
+<!--Mission-->
+<section>
+  <div class="content-2">
+    <h2 class="mission"> <span >OUR </span> MISSION </h2> <br>
+      <div class="missionP">
+        <p>Conservation of endangered turtle species</p>
+        <p>Protection of nesting sites</p>
+        <p>Collection and relocation of eggs</p>
+        <p>Incubation and hatching management</p>
+        <p>Research and data collection</p>
+        <p>Public education and awareness</p>
+        <p>Release of hatchlings</p>
+        <p>Collaboration and partnerships</p>
+    </div>
+  </div>
+</section>
+
+<p class="Hovertext">Hower over to flip the cards.</p>
+
+<!--Flip cards-->
+<section>
+    <div class="cards">
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="./Images/Images/Home/Flip-cards/hatchery-list.jpg" alt="A photo of a turtle hatchery" width="100%" height="100%">
+            <div class="topic">LOCATIONS</div>
+          </div>
+          <div class="flip-card-back">
+            <br><br><br><p>Hikkaduwa<br>Benthota<br>Kosgoda</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card-2">
+        <div class="flip-card-inner-2">
+          <div class="flip-card-front-2">
+            <img src="./Images/Images/Home//Flip-cards/turtle-type.jpg" alt="A photo of turtles in a beach" width="100%" height="100%">
+            <div class="topic-2">TURTLES</div>
+          </div>
+          <div class="flip-card-back-2">
+            <br><br><p>Green Turtle<br>Hawksbill Turtle<br>Olive Ridley Turtle<br>Loggerhead Turtle<br>Leatherback Turtle</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!--Recent news section-->
+<h2 class="recent"> <span >RECENT </span> NEWS </h2> <br>
+<div class="recents">
+  <div class="recent-gallery">
+    <img src="./Images/Images/Home/News/news-1.jpg" alt="A leatherback turtle" width="450" height="350">
+    <div class="desc">
+    <strong>Rare Leatherback turtle hatched at Matara turtle hatchery</strong><br>
+    <ol>
+      <li>This is the world’s largest turtle species and rarely appear in down south beaches.</li>
+      <li>This turtle’s birth is significant to the country as it is a rare occurrence.</li>
+      <li>About 80 eggs were collected along the beaches in Matara two months ago and placed at the hatchery.</li>
     </ol>
-    </section>
-    <section id="Cast">
-    <h3>CAST</h3>  
-    <ul style="list-style-type: circle;">
-        <a href="./LH.html"><li>Lewis Hamilton</li></a>
-        <li> Max Verstappen</li>
-        <li>Fernando Alonso</li>
-        <li>Valtteri Bottas</li>
-        <li>Charles Leclerc</li>
-        <li>Kevin Magnussen</li>
-        <li>Sebastian Vettel</li>
-    </ul> 
-    </section>
-    <hr>
-    <h2>Breaking Bad</h2>
-    <img src="./BB.jpg" alt="TV series cover" width="200" border="5">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore rerum repellat blanditiis consequatur deleniti fugit ea reiciendis libero architecto aperiam eum sed magnam est atque, praesentium soluta ullam nam beatae excepturi. Dicta, molestiae dolorem. Fugiat impedit earum officiis voluptates porro?</p> <a href="https://en.wikipedia.org/wiki/Breaking_Bad">Read more.</a>
-    <hr>
-    <h2>13 Reasons why</h2>
-    <img src="./13.jpg" alt="TV series cover" width="200" border="5">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur enim quisquam illo vero doloremque! Quod, ea nesciunt quisquam ratione nihil tempora eum ut. Doloremque amet molestiae ratione asperiores dignissimos provident pariatur earum! Cum officiis, in harum saepe expedita vel dolore.</p> <a href="https://en.wikipedia.org/wiki/13_Reasons_Why">Read more.</a>
-    <hr>
-    <h2>House of the Dragon</h2>
-    <img src="./HTD.jfif" alt="TV series cover" width="200" border="5">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sequi laudantium quas voluptas ad dolorem unde! Tempora iusto earum consectetur fugit, dicta molestiae quia perspiciatis est eius consequatur voluptatibus ad minus, eveniet, sequi eos fugiat pariatur accusamus ratione debitis culpa?</p> <a href="https://en.wikipedia.org/wiki/House_of_the_Dragon">Read more.</a>
-    <hr>
-    <h2>Witcher</h2>
-    <img src="./TW.jpg" alt="TV series cover" width="200" border="5">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse illum distinctio eius, similique repellendus animi accusantium temporibus delectus minima nisi enim. Quidem aliquid pariatur voluptate sunt culpa, velit qui maxime fuga. Ducimus cum laboriosam a architecto soluta repudiandae est unde.</p> 
-    
-    <footer>
-<br>
+    </div>
+  </div>
 
-<h4>Difficult words</h4>
-<dl>
-    <dt>H<sub>2</sub>O</dt>
-    <dd>Water</dd>
-    <dt>Formula 1</dt>
-    <dd>Formula One is the highest class of international racing for open-wheel single-seater formula racing cars sanctioned by the Fédération Internationale de l'Automobile. The FIA Formula One World Championship has been one of the premier forms of racing around the world since its inaugural season in 1950.</dd>
-<br>
-    <a href="https://en.wikipedia.org/wiki/The_Witcher_(TV_series)">Read more.</a> <br><br>
-    <a href="#firstTV">Back to top</a> <br><br><br>
-    <a href="mailto:thineth404@gmail.com">Contact me</a>
-</footer>
-</dl>
+  <div class="recent-gallery">
+    <img src="./Images/Images/Home/News/news-2.jpg" alt="Turtle conservation unit by Navy" width="450" height="350">
+    <div class="desc">
+    <strong>Navy releases 146 sea turtle hatchlings into ocean in panama beach</strong><br>
+    <ol>
+      <li>The hatchlings were part of the Conservation Project at Panama beach and their eggs were conserved at the Turtle Conservation Unit in Mahanaga.</li>
+      <li>Rear Admiral Kanchana Banagoda of the Commander Southeastern Naval Area was present at the release.</li>
+    </ol>
+    </div>
+  </div>
 
-<table border="1"cellspacing="10" cellpading="5">
-<caption align="bottom">Summary Table</caption>
-<thead><tr bgcolor="#150000">
-    <th width="200">TV series name</th>
-    <th width="150">Number of seasons</th>
-    <th width="150">IMDB rating</th>
-</tr></thead>
-<tbody bgcolor="#1F0050">
-<tr>
-    <td>Peaky Blinders</td>
-    <td>6</td>
-    <td>9.8</td>
-</tr>
-<tr>
-    <td>Game of Thrones</td>
-    <td>8</td>
-    <td>8.2</td>
-</tr>
-<tr>
-    <td>Drive to Survive</td>
-    <td>5</td>
-    <td>9.0</td>
-</tr>
-<tr>
-    <td>Witcher</td>
-    <td>2</td>
-    <td>9.1</td>
-</tr>
-</tbody>
-<tfoot bgcolor="#030035">
-    <tr>
-        <td colspan="3" align="center">&#169; all rights reserved. TV series Inc.</td>
-    </tr>
-</tfoot>
+  <div class="recent-gallery">
+    <img src="./Images/Images/Home/News/news-3.jpg" alt="Baby turtles walking to sea" width="450" height="350">
+    <div class="desc">
+    <strong>Sri Lankan Coast guards releases baby turtles in benthota</strong><br>
+    <ol>
+      <li>The Coast Guard Turtle Conservation Projects released 1603 turtle hatchlings from 1903 conserved eggs across the island.</li>
+      <li>The Sri Lanka Coast Guard (SLCG) safely released the hatchlings into the sea, emphasizing their ongoing efforts to protect turtle eggs.</li>
+    </ol>
+    </div>
+  </div>
+</div> 
 
-</table>
+<!--Footer-->
+    <footer class="footer">
+        <div class="foot-container">
+            <div class="footer-row">
+                <div class="footer-col">
+                <h4>ABOUT</h4>
+                <ul class="footer-col-1">
+                    <li class="li1"><a href="#">Contact us</a></li>
+                    <li class="li2"><a href="About-Us.html">About us</a></li>
+                </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>LEGAL INFO</h4>
+                    <ul class="footer-col-2">
+                        <li class="li3"><a href="#">Privacy policy</a></li>
+                        <li class="li4"><a href="#">Terms and conditions</a></li>
+                    </ul>
+                    
+                    
+                </div>
+                <div class="footer-col-socials">
+                    <h4 class="socialsh4">FOLLOW US</h4> <br>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"  class="FB" target="_blank"><img src="./Images/Icons/fb.png" height="30px"></a> &nbsp;
+                        <a href="https://www.instagram.com" class="IG" target="_blank"><img src="./Images/Icons/ig.png" height="30px"></a> &nbsp;
+                        <a href="https://www.twitter.com" class="TWIT" target="_blank"><img src="./Images/Icons/twit.png" height="30px"></a>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="Index.html" class="backtop"><img src="./Images/Icons/backtop.png" height="40px"></a>
+        </div>    
+
+                
+        
+        <h5>2023 All rights reserved. Turtles hatcheries SL</h5>
+    </footer>
 </body>
 </html>
+
+<!--
+REFERENCES
+
+IMAGES / VIDEOS
+
+1. Turtle Icon - https://thenounproject.com 
+2. Menu Icon - https://thenounproject.com 
+3. Homepage cover image - https://coolwallpapers.me/5245007-swimming-underwater-water-turtle-sea-turtle-swim-blue-minimal-ocean-gili-island-indonesium-scuba-div.html
+4. Turtle hatchery list photo - https://memanta.org/blog/
+5. Turtle types photo - https://www.nps.gov/pais/learn/nature/hatchlingreleases.htm
+6. Leatherback turtle - https://www.seeturtles.org/baby-turtles
+7. Navy turtle conservation centre - https://news.navy.lk/eventnews/2023/03/22/202303221645/
+8. Baby turtles walking to sea - https://theconversation.com/to-help-protect-newly-hatched-baby-sea-turtles-we-designed-a-tool-for-sensing-activity-inside-their-nests-193286
+9. Back to top icon - https://thenounproject.com 
+
+TEXT CONTENT
+
+1. Homepage introduction - https://ahangama.w15.lk/experiences/sea-turtle-hatchery | https://www.timetravelturtle.com/kosgoda-turtle-hatchery-sri-lanka/#:~:text=Kosgoda%20Turtle%20Hatchery%2C%20Galle%2C%20Sri,where%20they%20leave%20the%20eggs.
+2. Mission - https://www.araliyaresorts.com/experiences/turtle-hatchery#:~:text=The%20centre%27s%20main%20objective%20is,waters%20once%20they%20have%20recovered.
+3. Turtle types - https://nexttravelsrilanka.com/turtle-hatcheries-sri-lanka/
+4. Recent news #1 - https://sundaytimes.lk/online/news-online/Rare-Leather-back-turtle-hatched-at-Matara/2-1141113
+5. Recent news #2 - https://news.navy.lk/eventnews/2023/03/22/202303221645/
+6. Recent news #3 - https://www.defence.lk/Article/view_article/4506
+-->
